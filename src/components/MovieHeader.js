@@ -24,4 +24,4 @@ const mapStateToProps = (state) => {
         appTitle: state.appTitle
     })
 }
-export default connect(mapStateToProps) (MovieHeader);
+export default connect(mapStateToProps) (MovieHeader); 
