@@ -6,7 +6,7 @@ const initialState = {
     appTitle: "IMDB Movie Database"
 }
 
-const reducer = (moviesState = initialState, action) => {
+const movieReducer = (moviesState = initialState, action) => {
     switch(action.type) {
        case DELETE_MOVIE:
             return {
@@ -28,4 +28,4 @@ const reducer = (moviesState = initialState, action) => {
     }
 }
 
-export default reducer;
+export default movieReducer;
